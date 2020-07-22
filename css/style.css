@@ -1,0 +1,31 @@
+body{
+	font-size: 14px;
+	margin: 0px;
+	font-family: "Big Noodle Titling";
+}
+
+section{ 
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+
+}
+
+main section:nth-child(even){
+	background-image: linear-gradient(to right, deeppink , purple);
+}
+
+main section:nth-child(odd){
+	background-color: black;
+}
+
+h1{
+	font-size: 5em;
+}
+
+@font-face {
+	font-family: 'Big Noodle Titling';
+	src: url("/fonts/big_noodle_titling.ttf") format("truetype"),
+  }
