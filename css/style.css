@@ -14,7 +14,7 @@ section{
 }
 
 main section:nth-child(even){
-	background-color: yellow;
+	background-image: linear-gradient(to right, deeppink , purple);
 }
 
 main section:nth-child(odd){
