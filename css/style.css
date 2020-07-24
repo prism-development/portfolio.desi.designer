@@ -1,5 +1,6 @@
 body{
 	font-size: 14px;
+	padding: 0;
 	margin: 0px;
 	font-family: "Big Noodle Titling";
 }
@@ -21,11 +22,38 @@ main section:nth-child(odd){
 	background-color: black;
 }
 
-h1{
-	font-size: 5em;
+.FlexFather{
+	display: flex;
+	flex-direction: column;
+	width: 70rem;
+}
+
+.text-name{
+	font-weight: bold;
+	font-size: 9em;
 }
 
 @font-face {
 	font-family: 'Big Noodle Titling';
 	src: url("/fonts/big_noodle_titling.ttf") format("truetype"),
-  }
+	}
+	
+
+.barra{
+	margin: 12px;
+	width: 70rem;
+	height: 5px;
+	background-color: white;
+	border-radius: 10rem;
+}
+
+
+
+
+
+
+
+	.test{
+		background-color:red !important
+	}
+	
