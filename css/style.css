@@ -31,6 +31,8 @@ main section:nth-child(odd){
 .text-name{
 	font-weight: bold;
 	font-size: 9em;
+	transition: opacity 4s;
+	opacity: 0;
 }
 
 @font-face {
@@ -41,16 +43,12 @@ main section:nth-child(odd){
 
 .barra{
 	margin: 12px;
-	width: 70rem;
+	transition: width 5s;
+	width: 0rem;
 	height: 5px;
 	background-color: white;
 	border-radius: 10rem;
 }
-
-
-
-
-
 
 
 	.test{
